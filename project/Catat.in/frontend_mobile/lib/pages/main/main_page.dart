@@ -14,10 +14,10 @@ class MainPage extends StatelessWidget {
                 child: Padding(
                     padding: const EdgeInsets.all(10),
                     child: GridView.count(
-                        crossAxisCount: 1, // bisa diubah jadi 2 kalau mau 2 kolom
+                        crossAxisCount: 1, 
                         mainAxisSpacing: 20,
                         crossAxisSpacing: 20,
-                        childAspectRatio: 3, // sesuaikan tinggi card
+                        childAspectRatio: 3, 
                         children: [
                             MenuCard(
                                 title: 'Create Journal',
